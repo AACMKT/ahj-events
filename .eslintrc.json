@@ -1,0 +1,19 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+     "es6": true,
+     "browser": true,
+     "jest": true
+  },
+  "rules": {
+    "no-restricted-syntax": [
+      "error",
+      "LabeledStatement",
+      "WithStatement"
+    ],
+    "no-underscore-dangle": "off",
+    "no-alert": "off",
+    "prefer-regex-literals": "off",
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true, "optionalDependencies": false, "peerDependencies": false}]
+  }
+}
